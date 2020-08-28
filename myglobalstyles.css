@@ -1,0 +1,13 @@
+
+/* Teal #63a8a5 */
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    color:white!important;
+    letter-spacing: 1px;
+    /* Not sure yet playfair is the right one */
+}
+
+.nav-teal {
+    background-color: #63a8a5!important;
+}
