@@ -35,11 +35,11 @@ h1 {
   border: 2px outset;
 }
 
-img {
-  width: auto;
+#portfolio-box img {
+  width: 100%;
 }
 
-#row {
+.row {
   margin-bottom: 20px;
 }
 
