@@ -11,6 +11,10 @@
   background-color: #63a8a5 !important;
 }
 
+#navmargin-bottom {
+  margin-bottom: 5vw;
+} 
+
 body {
   background-image: url("./ignasi_pattern_s.png");
 }
