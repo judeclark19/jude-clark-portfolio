@@ -19,7 +19,7 @@ body {
   background-image: url("./ignasi_pattern_s.png");
 }
 
-#about-me-box {
+#about-me-box, #portfolio-box {
   background-color:white;
   padding: 25px;
 }
@@ -33,6 +33,14 @@ h1 {
   float: left;
   margin-right: 20px;
   border: 2px outset;
+}
+
+img {
+  width: auto;
+}
+
+#row {
+  margin-bottom: 20px;
 }
 
 footer {
