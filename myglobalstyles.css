@@ -19,7 +19,7 @@ body {
   background-image: url("./ignasi_pattern_s.png");
 }
 
-#about-me-box, #portfolio-box {
+#about-me-box, #portfolio-box, #contact-box {
   background-color:white;
   padding: 25px;
 }
@@ -43,30 +43,33 @@ h1 {
   margin-bottom: 20px;
 }
 
-footer {
-  flex-direction: row !important;
-  padding-top: 1rem!important;
-  padding-bottom: 1rem!important;
-  margin-left: -12px !important;
-  margin-right: -12px !important;
-  background-color: #666666;
-  border-top: 6px solid #63a8a5;
 
-  /* old styling
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    font-size: 1rem;
-    background-color: #666666;
-    color: #6d757c;
-    border-top: 6px solid #63a8a5;
-    */
+/* footer attempt 3 - Thanks to Canales for this */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 55px;
+  border-top: 6px solid #63a8a5;
+  width: 100%;
+  background-color: #666666;
+  color:#6d757c;
+  font-size: 1.2em;
 }
 
-.cntrjude {
-    text-align: center;
+/* centering the text */
+footer p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: small;
+}
+
+.btn-teal {
+  background-color: #63a8a5;
+  border-color: #63a8a5;
 }
 
 @media only screen and (max-width: 768px) {
