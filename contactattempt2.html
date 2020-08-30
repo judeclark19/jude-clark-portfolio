@@ -8,7 +8,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>GOOD FOOT Portfolio</title>
+    <title>GOOD FOOT Contact??</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Bootstrap CSS-->
@@ -51,11 +51,11 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="./contactattempt2.html">Contact</a>
+            <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Portfolio<span class="sr-only"> (current)</span></a
+            <a class="nav-link" href="./portfolio.html"
+              >Portfolio</a
             >
           </li>
           <li class="nav-item">
@@ -70,49 +70,32 @@
     <main>
       <div class="container">
         <div class="row">
-          <div class="col-sm-8" id="portfolio-box">
-            <h1>Portfolio</h1>
+          <div class="col-sm-9" id="contact-box">
+            <h1>Contact</h1>
             <hr />
-            <!-- Image grid  -->
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-6">
-                  <img
-                    src="https://via.placeholder.com/350x350.png"
-                    alt="image 1"
-                  />
-                </div>
-                <div class="col-sm-6">
-                  <img
-                    src="https://via.placeholder.com/350x350.png"
-                    alt="image 2"
-                  />
-                </div>
+            <form>
+
+              <!-- Name input -->
+              <div class="form-group">
+                <label for="inputName">Name</label>
+                <input type="text" class="form-control" id="inputName">
               </div>
-              <div class="row">
-                <div class="col-sm-6">
-                  <img
-                    src="https://via.placeholder.com/350x350.png"
-                    alt="image 3"
-                  />
-                </div>
-                <div class="col-sm-6">
-                  <img
-                    src="https://via.placeholder.com/350x350.png"
-                    alt="image 4"
-                  />
-                </div>
+
+              <!-- Email input -->
+              <div class="form-group">
+                <label for="inputEmail">Email</label>
+                <input type="text" class="form-control" id="inputEmail">
               </div>
-              <div class="row">
-                <div class="col-sm-6">
-                  <img
-                    src="https://via.placeholder.com/350x350.png"
-                    alt="image 5"
-                  />
-                </div>
-                <div class="col-sm-6"></div>
+
+              <!-- Text box -->
+              <div class="form-group">
+                <label for="messageTextArea">Message</label>
+                <textarea class="form-control" id="messageTextArea" rows="3"></textarea>
               </div>
-            </div>
+
+              <!-- submit button -->
+              <button type="submit" class="btn btn-primary btn-teal">Submit</button>
+            </form>
           </div>
         </div>
       </div>

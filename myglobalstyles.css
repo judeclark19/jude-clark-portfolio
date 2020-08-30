@@ -21,7 +21,7 @@ body {
 
 /* I thought this was supposed to make my footer stick >:( */
 main { 
-  min-height: calc(100vh - 56px - 61px);
+  min-height: calc(100vh - 169px);
   flex-shrink: 0!important;
 } 
 
@@ -49,30 +49,16 @@ h1 {
   margin-bottom: 20px;
 }
 
-
-/* footer styling */
 footer {
-  display: block;
-  margin-top: auto !important;
-  position: fixed;
-  left: 0;
-  bottom: 0;
   height: 55px;
-  border-top: 6px solid #63a8a5;
-  width: 100%;
   background-color: #666666;
   color:#6d757c;
-  font-size: 1.2em;
+  border-top: 6px solid #63a8a5;
 }
 
-/* centering the footer text */
 footer p {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: small;
+  margin-bottom: 0px!important;
+  text-align: center;
 }
 
 .btn-teal {
