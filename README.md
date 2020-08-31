@@ -13,6 +13,8 @@ All of the files necessary to run this website are available in [this repository
 
 ## Sources:
 
+* Social icons from <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a>.
+
 * [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 
 * [Google Fonts](https://fonts.google.com/)
