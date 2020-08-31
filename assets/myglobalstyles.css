@@ -1,10 +1,12 @@
-* {  /*takes any default margin and padding away from the entire page */
+* {
+  /*takes any default margin and padding away from the entire page */
   margin: 0;
   padding: 0;
 }
 
-html, body {
-  height: 100%
+html,
+body {
+  height: 100%; 
 }
 
 body {
@@ -23,10 +25,11 @@ body {
   background-color: #63a8a5 !important;
 }
 
-
 /* Main */
 #page-container {
-  min-height: calc(100vh - 56px); /*This line sets the height of the container to take up the rest of the page below the nav bar */
+  min-height: calc(
+    100vh - 56px
+  ); /*This line sets the height of the container to take up the rest of the page below the nav bar */
 }
 
 main {
@@ -35,14 +38,16 @@ main {
   padding-bottom: 100px;
 }
 
-#about-me-box, #portfolio-box, #contact-box {
-  background-color:white;
+#about-me-box,
+#portfolio-box,
+#contact-box {
+  background-color: white;
   padding: 25px;
 }
 
 h1 {
   font-family: "Playfair Display", serif;
-  color:#63a8a5;
+  color: #63a8a5;
 }
 
 #about-me-box img {
@@ -64,7 +69,6 @@ h1 {
   border-color: #63a8a5;
 }
 
-
 /* Footer */
 footer {
   border-top: 6px solid #63a8a5;
@@ -75,11 +79,15 @@ footer {
   clear: both; /* essentially a line break for floating*/
 }
 
-#footermain { /* I fetched this block from https://www.w3schools.com/css/css_align.asp */
+#footermain {
+  /* I fetched this block from https://www.w3schools.com/css/css_align.asp */
   color: #6e767d;
   margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /*I would love to learn how this bit works */
+  transform: translate(
+    -50%,
+    -50%
+  ); /*  I would love to learn how this bit works */
 }
