@@ -45,6 +45,7 @@ main {
   padding: 25px;
 }
 
+/* index ver 1 (not responsive) container for the image*/
 #picofme-container{
   float: left;
   margin-right: 20px;
@@ -59,11 +60,12 @@ h1 {
   color: #63a8a5;
 }
 
+/* affects both versions */
 #about-me-box img {
-  max-width: 100%;
-  margin-right: 20px; 
+  max-width: 100%; /* affects the floating image by constraining it to the size of #picofme-container */
   border: 2px outset;
-}
+  float: left;
+} 
 
 #portfolio-box img {
   width: 100%;

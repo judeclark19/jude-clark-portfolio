@@ -13,7 +13,7 @@ All of the files necessary to run this website are available in [this repository
 
 ## Outstanding issues:
 1. The footer text does not break properly on mobile devices
-2. Layout of the main box on index.html
+2. I wish to add a Favicon
 
 ## Sources:
 
