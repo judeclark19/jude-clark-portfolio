@@ -45,7 +45,6 @@ main {
   padding: 25px;
 }
 
-/* index ver 1 (not responsive) container for the image*/
 #picofme-container{
   float: left;
   margin-right: 20px;
@@ -54,18 +53,25 @@ main {
   /* How do I get it to resize?? >:( */
 }
 
+#picofme {
+  max-width: 100%; /* affects the floating image by constraining it to the size of #picofme-container */
+  border: 2px outset;
+  float: left;
+} 
 
 h1 {
   font-family: "Playfair Display", serif;
   color: #63a8a5;
 }
 
-/* affects both versions */
-#about-me-box img {
-  max-width: 100%; /* affects the floating image by constraining it to the size of #picofme-container */
-  border: 2px outset;
-  float: left;
-} 
+/* Social links styling */
+li a {
+  color:#212529 !important;
+}
+
+li a:hover {
+  text-decoration:none !important;
+}
 
 #portfolio-box img {
   width: 100%;
@@ -77,6 +83,16 @@ h1 {
 
 .row {
   margin-bottom: 20px;
+}
+
+.card {
+  margin-left: 20px;
+  float: right;
+}
+
+.card-header{
+  margin: auto;
+  padding: .75rem 6.5rem !important;
 }
 
 .btn-teal {
@@ -105,4 +121,8 @@ footer {
     -50%,
     -50%
   ); /*  I would love to learn how this bit works */
+}
+
+.socialicon{
+  max-width: 24px;
 }

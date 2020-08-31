@@ -27,6 +27,10 @@ All of the files necessary to run this website are available in [this repository
 
 * W3 Schools: [CSS Layout - Horizontal & Vertical Align](https://www.w3schools.com/css/css_align.asp)
 
+* [Favicon.io](https://favicon.io/)
+
+* [How to Add a Favicon](https://www.youtube.com/watch?v=pA8103S-yqk)
+
 ## License
 MIT License
 
