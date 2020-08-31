@@ -13,7 +13,7 @@ All of the files necessary to run this website are available in [this repository
 
 ## Outstanding issues:
 1. The footer text does not break properly on mobile devices
-2. I can't figure out how to get non-placeholder images in there without them being the wrong size
+2. Layout of the main box on index.html
 
 ## Sources:
 
