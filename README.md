@@ -12,8 +12,7 @@ This portfolio displays the work I have created while enrolled in the GA Tech Fu
 All of the files necessary to run this website are available in [this repository](https://github.com/judeclark19/jude-clark-portfolio).
 
 ## Outstanding issues:
-1. The footer text does not break properly on mobile devices
-2. I wish to add a Favicon
+1. The footer text does not break nicely on mobile devices
 
 ## Sources:
 
