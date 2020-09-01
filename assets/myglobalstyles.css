@@ -13,6 +13,12 @@ body {
   background-image: url("./ignasi_pattern_s.png");
 }
 
+#page-container {
+  min-height: calc(
+    100vh - 56px
+  ); /*This line sets the height of the container to take up the rest of the page below the nav bar */
+}
+
 /* Nav bar */
 .navbar-brand {
   font-family: "Playfair Display", serif;
@@ -25,13 +31,7 @@ body {
   background-color: #63a8a5 !important;
 }
 
-/* Main */
-#page-container {
-  min-height: calc(
-    100vh - 56px
-  ); /*This line sets the height of the container to take up the rest of the page below the nav bar */
-}
-
+/* Global */
 main {
   padding-top: 5vw;
   overflow: auto;
@@ -44,6 +44,17 @@ main {
   background-color: white;
   padding: 25px;
 }
+
+.row {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  color: #63a8a5;
+}
+
+/* index page */
 
 #picofme-container{
   float: left;
@@ -59,32 +70,7 @@ main {
   float: left;
 } 
 
-h1 {
-  font-family: "Playfair Display", serif;
-  color: #63a8a5;
-}
-
-/* Social links styling */
-li a {
-  color:#212529 !important;
-}
-
-li a:hover {
-  text-decoration:none !important;
-}
-
-#portfolio-box img {
-  width: 100%;
-}
-
-#imgContainerFour {
-  width: 100%;
-}
-
-.row {
-  margin-bottom: 20px;
-}
-
+/* Still on the index page, targeting Social links styling */
 .card {
   margin-left: 20px;
   float: right;
@@ -95,6 +81,21 @@ li a:hover {
   padding: .75rem 6.5rem !important;
 }
 
+.social-list a {
+  color:#212529 !important;
+}
+
+.social-list a:hover {
+  text-decoration:none !important;
+}
+
+
+/* Portfolio page */
+#portfolio-box img {
+  width: 100%;
+}
+
+/* Contact page */
 .btn-teal {
   background-color: #63a8a5;
   border-color: #63a8a5;
